@@ -218,3 +218,33 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+@media(max-width: 800px) {
+    .text-containers {
+        flex-direction: column;
+    }
+
+    .text-containers .text-container {
+        padding: 2% 0;
+        width: 100%;
+    }
+
+    .middle-content .boxes .box {
+        width: 30%;
+        height: 9rem;
+    }
+
+    .bottom-content {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .bottom-content .text-container {
+        width: 47%;
+        padding-bottom: 4%;
+    }
+}
+
+@media(max-width: 500px) {
+
+}
