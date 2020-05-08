@@ -106,6 +106,15 @@ header nav {
     border-bottom: 1px dashed black;
 }
 
+.top-content img {
+    width: 100%;
+}
+
+.top-content .text-containers {
+    padding: 2rem 0;
+    display: flex;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
